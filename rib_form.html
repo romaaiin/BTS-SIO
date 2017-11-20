@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+		<title>HTML</title>
+		<meta http-equiv="Content-Language"content="fr"/>
+		<meta charset="utf-8" />
+		<meta author="Romain" />
+		<link type="text/css" media="screen" href="./css/global.css" rel="stylesheet" />
+		<style type="text/css" media="screen">
+	
+		</style>
+			<h1>Gerlache Romain - Gréta Viva5 - Iveco Bus Annonay</h1>
+		
+			<ul id="navbas">
+				<form id="form_rib" action="rib.php" method="POST">
+					<li> <a href="index.html">Accueil</a> </li>
+					<li> <a href="fichestagiaire.html"> Fiche Stagiaire </a> </li>
+					<li> <a href="ficheentreprise.html"> Fiche entreprise </a> </li>
+					<li> <a href="contact.html"> Contacts </a> </li> <br>
+					<li> <a href="renseignements.html"> Demande de renseignements </a> </li>
+					<li> <a href="div-form.html">Division euclidienne</a></li>
+					<li> <a href="congruence_form.html">Vérification Congruence</a></li>
+					<li> <a href="rib_form.html">Vérification Code banque</a></li>
+				</form>
+			</ul>
+			
+	</head>
+
+        
+        <body>
+		
+            <a href="index.php"><h2>Calculer un RIB</h2></a>
+            
+            <form id="form_rib" action="rib.php" method="POST">
+                <div id="rib">
+                <h4>Entrer la clé rib</h4>
+                Banque : <input id="rib_nbr" type="text_rib" name="b"> <br>
+                Guichet : <input id="rib_nbr" type="text_rib" name="g"> <br>
+                N° de compte : <input id="rib_ncompte" type="text" name="c"> <br>
+                RIB de verification : <input type="text" name="rib_v"> <br>
+                </div>
+                
+                <input type="submit" value="Vérifier">
+                
+    
+                
+            
+            </form>
+        
+        </body>
+</html>
