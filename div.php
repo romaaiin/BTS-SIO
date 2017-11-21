@@ -13,7 +13,7 @@
 			<h1>Gerlache Romain - Gréta Viva5 - Iveco Bus Annonay</h1>
 		
 			<ul id="navbas">
-				<form id="form_rib" action="rib.php" method="POST">
+				<form id="entete">
 					<li> <a href="index.html">Accueil</a> </li>
 					<li> <a href="fichestagiaire.html"> Fiche Stagiaire </a> </li>
 					<li> <a href="ficheentreprise.html"> Fiche entreprise </a> </li>
