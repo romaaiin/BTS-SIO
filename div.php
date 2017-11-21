@@ -33,9 +33,9 @@
 
 	La division euclidienne de 
 
-	<?php $dividende = $_POST['a']; ?> 
+	<?php $dividende = $_GET['a']; ?> 
 	
-	<?php $diviseur = $_POST['b']; ?> 
+	<?php $diviseur = $_GET['b']; ?> 
 	
 	<?php $reste = $dividende%$diviseur; ?>
 	
